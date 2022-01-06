@@ -30,7 +30,7 @@ Godot TapTap 基础插件
 ![image](https://godoter.cn/assets/files/2022-01-06/1641447686-489526-image.png)
 
 在代码中启用插件：
-
+```
 func _ready():
 	if Engine.has_singleton("GodotUtils"):
 		singleton = Engine.get_singleton("GodotUtils")
@@ -38,6 +38,7 @@ func _ready():
 		singleton.connect("OnTapLoginResult",self,"_OnTapLoginResult")
 		singleton.connect("OnTapLoginAccessToken",self,"_OnTapLoginAccessToken")
 		singleton.connect("OnTapMomentCallBack",self,"_OnTapMomentCallBack")
+```
 
 信号说明：
 
