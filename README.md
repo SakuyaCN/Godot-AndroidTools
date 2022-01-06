@@ -19,15 +19,15 @@ Godot TapTap 基础插件
 
 导入构建模板
 
-[upl-image-preview url=https://godoter.cn/assets/files/2022-01-06/1641447607-529202-image.png]
+![image](https://godoter.cn/assets/files/2022-01-06/1641447607-529202-image.png)
 
 添加文件到plugins目录下：
 
-[upl-image-preview url=https://godoter.cn/assets/files/2022-01-06/1641447649-785628-image.png]
+![image](https://godoter.cn/assets/files/2022-01-06/1641447649-785628-image.png)
 
 导出设置中勾选以下内容：
 
-[upl-image-preview url=https://godoter.cn/assets/files/2022-01-06/1641447686-489526-image.png]
+![image](https://godoter.cn/assets/files/2022-01-06/1641447686-489526-image.png)
 
 在代码中启用插件：
 
@@ -61,7 +61,7 @@ singleton.showToast("这是一个来自Godot的提示",0)
 
 效果图：
 
-[upl-image-preview url=https://godoter.cn/assets/files/2022-01-06/1641448006-25628-73cb08574c53f1b2348370485985532.jpg]
+![image](https://godoter.cn/assets/files/2022-01-06/1641448006-25628-73cb08574c53f1b2348370485985532.jpg)
 
 打开一个内置网页：
 
@@ -69,7 +69,7 @@ singleton.openWebView("https://godoter.cn")
 
 效果图：
 
-[upl-image-preview url=https://godoter.cn/assets/files/2022-01-06/1641448225-983191-95f0e7aadae141b3693a947cee24d23.jpg]
+![image](https://godoter.cn/assets/files/2022-01-06/1641448225-983191-95f0e7aadae141b3693a947cee24d23.jpg)
 
 初始化TapTap SDK（需要自行去Tap开发者后台申请id与token）：
 
@@ -83,11 +83,11 @@ singleton.getMethods("tapLogin")
 
 效果图：
 
-[upl-image-preview url=https://godoter.cn/assets/files/2022-01-06/1641449271-670667-e53ca1897c6a512f9d9b0f01e8235cf.jpg]
+![image](https://godoter.cn/assets/files/2022-01-06/1641449271-670667-e53ca1897c6a512f9d9b0f01e8235cf.jpg)
 
 登录成功后返回登录信息：
 
-[upl-image-preview url=https://godoter.cn/assets/files/2022-01-06/1641449288-434140-0a2874e5143b7a4efb2a73055e31ba6.jpg]
+![image](https://godoter.cn/assets/files/2022-01-06/1641449288-434140-0a2874e5143b7a4efb2a73055e31ba6.jpg)
 
 退出登录：
 
@@ -99,7 +99,7 @@ singleton.getMethods("tapAccessToken")
 
 效果图：
 
-[upl-image-preview url=https://godoter.cn/assets/files/2022-01-06/1641449342-790941-85fe602ff9ae486682b23522aa2a3c9.jpg]
+![image](https://godoter.cn/assets/files/2022-01-06/1641449342-790941-85fe602ff9ae486682b23522aa2a3c9.jpg)
 
 打开Tap内嵌动态：
 
@@ -107,7 +107,7 @@ singleton.getMethods("tapOpenMoment")
 
 效果图：
 
-[upl-image-preview url=https://godoter.cn/assets/files/2022-01-06/1641449373-699519-157545d4b8e162e163672a4d00ef2e7.jpg]
+![image](https://godoter.cn/assets/files/2022-01-06/1641449373-699519-157545d4b8e162e163672a4d00ef2e7.jpg)
 
 Tap统计发送自定义事件（参数一：事件名称，参数二：具体事件内容）：
 
@@ -119,4 +119,4 @@ singleton.tapTrackEvent("login",to_json({
 
 初始化SDK后自动启动Tap数据分析，数据分析可在开发者后台查看：
 
-[upl-image-preview url=https://godoter.cn/assets/files/2022-01-06/1641449537-182885-image.png]
+![image](https://godoter.cn/assets/files/2022-01-06/1641449537-182885-image.png)
