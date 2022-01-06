@@ -120,5 +120,3 @@ singleton.tapTrackEvent("login",to_json({
 初始化SDK后自动启动Tap数据分析，数据分析可在开发者后台查看：
 
 [upl-image-preview url=https://godoter.cn/assets/files/2022-01-06/1641449537-182885-image.png]
-
-插件地址：
