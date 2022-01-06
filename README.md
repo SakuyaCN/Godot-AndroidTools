@@ -41,7 +41,7 @@ func _ready():
 ```
 
 信号说明：
-
+```
 AndroidPhoneInfo 返回设备基础信息
 
 OnTapLoginResult 调用Tap登录返回结果
@@ -49,25 +49,26 @@ OnTapLoginResult 调用Tap登录返回结果
 OnTapLoginAccessToken 调用Tap 登录状态返回结果
 
 OnTapMomentCallBack 当内嵌动态有提示时调用
+```
 
 方法说明：
 
 获取设备基础信息
-
+```
 singleton.getMethods("getAndroidPhoneInfo")
-
+```
 提示框（参数0代表较短时间的提示框，1代表较长事件的提示框）：
-
+```
 singleton.showToast("这是一个来自Godot的提示",0) 
-
+```
 效果图：
 
 ![image](https://godoter.cn/assets/files/2022-01-06/1641448006-25628-73cb08574c53f1b2348370485985532.jpg)
 
 打开一个内置网页：
-
+```
 singleton.openWebView("https://godoter.cn")
-
+```
 效果图：
 
 ![image](https://godoter.cn/assets/files/2022-01-06/1641448225-983191-95f0e7aadae141b3693a947cee24d23.jpg)
