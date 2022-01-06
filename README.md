@@ -76,13 +76,13 @@ singleton.openWebView("https://godoter.cn")
 初始化TapTap SDK（需要自行去Tap开发者后台申请id与token）：
 
 所有Tap相关操作都必须要在初始化之后再调用，初始化只需要一次就行
-
+```
 singleton.tapInit("client_id","client_token")
-
+```
 打开Tap登录界面：
-
+```
 singleton.getMethods("tapLogin")
-
+```
 效果图：
 
 ![image](https://godoter.cn/assets/files/2022-01-06/1641449271-670667-e53ca1897c6a512f9d9b0f01e8235cf.jpg)
@@ -92,33 +92,33 @@ singleton.getMethods("tapLogin")
 ![image](https://godoter.cn/assets/files/2022-01-06/1641449288-434140-0a2874e5143b7a4efb2a73055e31ba6.jpg)
 
 退出登录：
-
+```
 singleton.getMethods("tapLogin")
-
+```
 获取当前登录用户Token信息（必须是已经登录的情况下调用）：
-
+```
 singleton.getMethods("tapAccessToken")
-
+```
 效果图：
 
 ![image](https://godoter.cn/assets/files/2022-01-06/1641449342-790941-85fe602ff9ae486682b23522aa2a3c9.jpg)
 
 打开Tap内嵌动态：
-
+```
 singleton.getMethods("tapOpenMoment")
-
+```
 效果图：
 
 ![image](https://godoter.cn/assets/files/2022-01-06/1641449373-699519-157545d4b8e162e163672a4d00ef2e7.jpg)
 
 Tap统计发送自定义事件（参数一：事件名称，参数二：具体事件内容）：
-
+```
 singleton.tapTrackEvent("login",to_json({
 
 		"user":"sakuya"
 
 	}))
-
+```
 初始化SDK后自动启动Tap数据分析，数据分析可在开发者后台查看：
 
 ![image](https://godoter.cn/assets/files/2022-01-06/1641449537-182885-image.png)
