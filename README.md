@@ -1,4 +1,4 @@
-# Godot-AndroidTools
+# Godot-AndroidTools Godot-TapTap
 Godot TapTap 基础插件
 
 最近做了一个Godot 安卓插件分享给大家，目前只做了一些小功能，如果需要拓展可以留言。
