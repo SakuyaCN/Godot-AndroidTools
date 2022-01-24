@@ -1,0 +1,7 @@
+[config]
+
+name="GodotAntiAddiction"
+binary_type="local"
+binary="GodotAntiAddiction.1.0.0.release.aar"
+
+[dependencies]
