@@ -2,7 +2,7 @@
 
 name="GodotUtils"
 binary_type="local"
-binary="GodotUtils.1.0.0.release.aar"
+binary="GodotUtils.1.0.1.release.aar"
 
 [dependencies]
 
